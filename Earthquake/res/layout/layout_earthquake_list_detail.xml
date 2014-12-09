@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="115dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/lblDateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="1dp"
+        android:paddingLeft="2dp"
+        android:paddingTop="1dp"
+        android:text="@string/eq_det_timedate_label"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblDateLabel"
+        android:layout_toRightOf="@+id/lblDateLabel"
+        android:paddingBottom="1dp"
+        android:paddingLeft="2dp"
+        android:paddingTop="1dp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/lblRegionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblDateLabel"
+        android:paddingBottom="1dp"
+        android:paddingLeft="2dp"
+        android:paddingTop="1dp"
+        android:text="@string/eq_det_region_label"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblRegion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblRegionLabel"
+        android:layout_below="@id/lblDate"
+        android:layout_toRightOf="@+id/lblRegionLabel"
+        android:paddingBottom="1dp"
+        android:paddingLeft="2dp"
+        android:paddingTop="1dp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/lblMagnitudeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblRegionLabel"
+        android:paddingBottom="1dp"
+        android:paddingLeft="2dp"
+        android:paddingTop="1dp"
+        android:text="@string/eq_det_magnitude_label"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblMagnitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblMagnitudeLabel"
+        android:layout_below="@id/lblRegionLabel"
+        android:layout_toRightOf="@+id/lblMagnitudeLabel"
+        android:paddingBottom="1dp"
+        android:paddingLeft="2dp"
+        android:paddingTop="1dp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/lblDepthLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblMagnitude"
+        android:layout_below="@id/lblRegionLabel"
+        android:layout_toRightOf="@+id/lblMagnitude"
+        android:padding="5dp"
+        android:paddingBottom="1dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="1dp"
+        android:text="@string/eq_det_depth_label"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblDepth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblDepthLabel"
+        android:layout_below="@id/lblDateLabel"
+        android:layout_toRightOf="@+id/lblDepthLabel"
+        android:paddingBottom="1dp"
+        android:paddingLeft="2dp"
+        android:paddingTop="1dp"
+        android:textSize="14sp" />
+
+</RelativeLayout>

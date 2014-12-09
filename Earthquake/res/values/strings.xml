@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Earthquake</string>
+    <string name="splash_logo_description">Logo</string>
+    <string name="splash_url">www.anz.com.au</string>
+    <string name="splash_status_details_loading">Loading Data&#8230;</string>
+    <string name="splash_status_details_persisting">Persisting To Local Store&#8230;</string>
+    <string name="splash_status_details_no_data_cached">No Data Was Returned, Using Cached Data</string>
+    <string name="splash_status_details_no_data_exit">No Data Was Returned, Please Try Again Later</string>
+    <string name="splash_status_details_no_data_exit_title">Error</string>
+    <string name="splash_status_details_no_data_exit_OK">OK</string>
+    <string name="main_group_by_label">Group By:</string>
+    <string name="main_region_label">Region</string>
+    <string name="main_magnitude_label">Magnitude</string>
+    <string name="eq_det_eqid_label">Eqid:</string>
+    <string name="eq_det_region_label">Region:</string>
+    <string name="eq_det_depth_label">Depth:</string>
+    <string name="eq_det_magnitude_label">Magnitude:</string>
+    <string name="eq_det_timedate_label">Date:</string>
+    <string name="eq_det_src_label">Src:</string>
+    <string name="eq_det_lat_label">Lat:</string>
+    <string name="eq_det_lon_label">Lon:</string>
+
+</resources>

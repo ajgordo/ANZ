@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/lblGroupByLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="5dp"
+        android:paddingBottom="1dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="1dp"
+        android:text="@string/main_group_by_label"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="21dp"
+        android:layout_toRightOf="@+id/lblGroupByLabel"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radioMagnitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:text="@string/main_magnitude_label" />
+
+        <RadioButton
+            android:id="@+id/radioRegion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_region_label" />
+    </RadioGroup>
+
+    <ExpandableListView
+        android:id="@+id/expandable_earthquakes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroupBy"
+        android:layout_centerHorizontal="true" >
+    </ExpandableListView>
+
+</RelativeLayout>
